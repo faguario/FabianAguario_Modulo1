@@ -44,7 +44,6 @@
         if(isset($_POST["barco1"])){
             $bar1=$_POST["barco1"];
             foreach($bar1 as $llave => $valor)
-                echo $valor;
             echo "<br>";
         }
         else{
@@ -223,7 +222,6 @@
                             foreach($bar1 as $llave => $valor){
                                 if($valor == $ataque)
                                     $a=1;
-                                    echo $a;
                                     
                             }
                             if($a==1 && $ataque == $casillas[$i][$j] ){
@@ -233,7 +231,6 @@
                             else{
                                 echo '<img src="./Mar.jpg" width="25" height="25" alt="Mar">';
                             }
-                            echo $a;
                             
                     echo "</td>";
                 }
